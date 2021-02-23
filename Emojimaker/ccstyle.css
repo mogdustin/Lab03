@@ -1,0 +1,68 @@
+body
+{
+	background: lightBlue
+}
+h1
+{
+	font-size: 52px;
+	color: darkgoldenrod;
+	font-family: Impact;
+    text-align: center
+}
+button
+{
+	background-color: DarkGreen;
+	color: lightgray;
+	border: solid lightgray 6px;
+	font-size: 40px;
+	padding: 20px;
+	margin: 12px;
+	border-radius: 16px;
+}
+button:hover
+{
+	background-color: lightgray;
+	color: DarkSlateBlue;
+	border: solid DarkGreen 6px;
+	transition: 0.5s;
+}
+.centerImage
+{
+	 position: relative;
+      top: 0px;
+      left: 375px;
+        text-align: center;
+
+
+}
+.centerTopImage
+{
+        position: absolute;
+      top: 0px;
+      left: 375px;
+    text-align: center;
+
+}
+.centerAcc
+{
+        position: absolute;
+      top: 0px;
+      left: 375px;
+    text-align: center;
+
+}
+.ccButtons
+{
+	text-align: center;
+}
+.Emojibox
+{
+    position: relative;
+    width: 65%;
+	margin: auto;
+	display: block;
+	border: solid DarkGreen 16px;
+	border-radius: 32px;
+	background-image: linear-gradient(GoldenRod, Gold, GoldenRod);
+    
+}
