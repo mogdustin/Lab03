@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emoji Maker</title>
+    
+    <link rel="stylesheet" type="text/css" href="ccstyle.css">
+</head>
+
+<body>
+   <h1> Emoji Maker Page</h1>
+    <div class="Emojibox">
+    <img class="centerImage" id="ccimg" src="images/yellow.png" alt="Color">
+    <img class="centerTopImage" id="cctop" src="images/Smile.png" alt="face">
+    <img class="centerAcc" id="ccacc" src="images/Scar.png" alt="Accessory">
+    
+
+    <div class="ccButtons">
+    <button onclick=BlueButton()>Blue</button>
+    <button onclick=YellowButton()>Yellow</button>
+    <button onclick=PinkButton()>Pink</button>
+    <button onclick=RedButton()>Red</button>
+    <br>
+    <button onclick=SmileButton()>Smile</button>
+    <button onclick=HappyButton()>Happy</button>
+    <button onclick=CuteButton()>Cute</button>
+    <button onclick=CryingButton()>Crying</button>
+    <br>
+    <button onclick=ScarButton()>Scar</button>
+    <button onclick=BowButton()>Bow</button>
+    <button onclick=BandanaButton()>Bandana</button>
+    </div>
+    </div>
+    
+<script>
+var buzzerSound = new Audio("sfx/Ding.mp3");
+    
+function BlueButton()
+{
+	document.getElementById("ccimg").src="images/Blue.png";
+	document.getElementById("ccimg").alt="blue";
+	buzzerSound.play();
+}
+function YellowButton()
+{
+	document.getElementById("ccimg").src="images/Yellow.png";
+	document.getElementById("ccimg").alt="yellow";
+    buzzerSound.play();
+}
+function PinkButton()
+{
+	document.getElementById("ccimg").src="images/Pink.png";
+	document.getElementById("ccimg").alt="Pink";
+    buzzerSound.play();
+}
+    function RedButton()
+{
+	document.getElementById("ccimg").src="images/Red.png";
+	document.getElementById("ccimg").alt="Red";
+    buzzerSound.play();
+}
+    function SmileButton()
+{
+	document.getElementById("cctop").src="images/Smile.png";
+	document.getElementById("cctop").alt="Smile";
+    buzzerSound.play();
+}
+    function HappyButton()
+{
+	document.getElementById("cctop").src="images/Happy.png";
+	document.getElementById("cctop").alt="Happy";
+    buzzerSound.play();
+}
+    function CuteButton()
+{
+	document.getElementById("cctop").src="images/Cute.png";
+	document.getElementById("cctop").alt="Cute";
+    buzzerSound.play();
+}
+    function CryingButton()
+{
+	document.getElementById("cctop").src="images/Crying.png";
+	document.getElementById("cctop").alt="Crying";
+    buzzerSound.play();
+}
+    function ScarButton()
+{
+	document.getElementById("ccacc").src="images/Scar.png";
+	document.getElementById("ccacc").alt="scar";
+    buzzerSound.play();
+}
+    function BowButton()
+{
+	document.getElementById("ccacc").src="images/Bow.png";
+	document.getElementById("ccacc").alt="Bow";
+    buzzerSound.play();
+}
+        function BandanaButton()
+{
+	document.getElementById("ccacc").src="images/Bandana.png";
+	document.getElementById("ccacc").alt="Bandana";
+    buzzerSound.play();
+}
+</script>
+   
+</body>
+</html>
